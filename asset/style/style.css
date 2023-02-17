@@ -1,0 +1,162 @@
+:root{
+    font-family: "BeaufortforLOL-Bold";
+}
+/* .nav >ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px
+} */
+.banner {
+    width: 100vw;
+    height: 825px;
+    position: relative;
+    left: 30px;
+}
+
+.logo {
+    display: flex;
+    /* margin: 20px; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo-1 {
+    position: relative;
+    margin-top: 10px;
+    height: 200px;
+    width: 400px;
+
+}
+
+.infor {
+
+    /* transform: translate(40%);
+    position: relative; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.champ {
+    display: grid;
+    grid-template-columns: 328px 328px 328px 328px;
+
+    gap: 30px;
+}
+
+.namebox {
+
+    background-color:
+        #0E4C67;
+
+    font-family: 'BeaufortforLOL-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    position: relative;
+    bottom: 25px;
+
+    color: #FFFFFF;
+
+
+}
+
+p {
+
+    width: 300px;
+    position: relative;
+    top: 30px;
+
+    height: 80px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+/* .champ1{
+    position: relative;
+    left: -80%;
+    width: 328px;
+    height: 200px;
+} */
+
+.video {
+    width: 1420px;
+    height: 790px;
+}
+
+.footer {
+    font-family: 'BeaufortforLOL-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    background-color:
+        #0E4C67;
+
+    color: #FFFFFF;
+}
+
+/* .email{
+    border: 1px solid;
+    border-color: yellow;
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+
+} */
+.email {
+    width: 230px;
+    height: 30px;
+    border: 1px solid orange;
+    background-color: #0E4C67;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+
+
+
+}
+
+.cuoi {
+    display: flex;
+    position: relative;
+    top: 50px;
+}
+
+.lable {
+
+    position: relative;
+    right: -73.5%;
+
+
+}
+
+.button {
+    position: relative;
+    background-color: orange;
+    bottom: 20px;
+    height: 36px;
+    right: -50px;
+}
+
+.button:hover {
+    cursor: pointer;
+
+}
